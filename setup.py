@@ -14,6 +14,9 @@ setup(
         "numpy>=1.20.0",
         "csdl-alpha>=0.0.1"
     ],
+    dependency_links=[
+        "git+https://github.com/LSDOlab/CSDL_alpha.git"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

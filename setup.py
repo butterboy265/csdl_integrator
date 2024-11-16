@@ -12,7 +12,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy>=1.20.0",
-        "csdl-alpha>=0.0.1"
     ],
     dependency_links=[
         "git+https://github.com/LSDOlab/CSDL_alpha.git"
